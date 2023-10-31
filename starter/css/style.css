@@ -23,13 +23,46 @@ body{
     padding: 30px;
 
 }
+
 .header{
     height: 95vh;
     background-image: linear-gradient(to right bottom, #7ed56fcc,#28b485dd), url(../img/hero.jpg);
     background-size: cover;
     background-position: top;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-
-
+    position: relative;
 
 }
+.logo{
+    height: 2.8rem;
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+}
+
+.text-box{
+    position: absolute;
+    top:33%;
+    left:29%
+}
+
+.heading-primary-main{
+
+    color: white;
+    text-transform: uppercase;
+    display:block;
+    font-weight:400;
+    font-size:80px;
+    letter-spacing: 40px;
+    text-align: center;
+}
+
+.heading-primary-sub{
+    color: white;
+    text-transform: uppercase;
+    display:block;
+    font-size:20px;
+    letter-spacing: 10px;
+    text-align: center;
+    
+}
+
