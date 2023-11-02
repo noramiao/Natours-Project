@@ -42,7 +42,8 @@ body{
 .text-box{
     position: absolute;
     top:33%;
-    left:29%
+    left:25%;
+    text-align: center;
 }
 
 .heading-primary-main{
@@ -53,7 +54,6 @@ body{
     font-weight:400;
     font-size:80px;
     letter-spacing: 40px;
-    text-align: center;
     animation-name: moveLeft;
     animation-duration: 1s;
 }
@@ -64,9 +64,9 @@ body{
     display:block;
     font-size:20px;
     letter-spacing: 10px;
-    text-align: center;
     animation-name: moveRight;
     animation-duration: 1s;
+    margin-bottom:40px
     
 }
 
@@ -99,4 +99,28 @@ body{
         opacity: 1;
         transform:translateX(0);
     }
+}
+
+.btn:link,
+.btn.visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all 0.2s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.btn:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+.btn-white{
+    background-color: #fff;
+    color: #777;
+    
 }
