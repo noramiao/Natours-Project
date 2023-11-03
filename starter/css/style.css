@@ -129,6 +129,7 @@ body{
     font-size: 1.5rem;
     animation-name: moveUp;
     animation-duration: 1s;
+    animation-delay: 0.2s;
 
 }
 @keyframes moveUp{
