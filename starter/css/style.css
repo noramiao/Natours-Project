@@ -15,7 +15,7 @@ Dark green: #28b485
 }
 
 html{
-    font-size: 10px;
+    font-size: 62.5%;
 }
 
 body{
@@ -127,5 +127,17 @@ body{
     background-color: #fff;
     color: #777;
     font-size: 1.5rem;
+    animation-name: moveUp;
+    animation-duration: 1s;
 
+}
+@keyframes moveUp{
+        0%{
+            transform: translateY(3rem);
+            opacity: 0;
+        }   
+        100%{
+            transform:translateY(0);
+            opacity: 1;
+        }
 }
