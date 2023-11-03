@@ -14,13 +14,17 @@ Dark green: #28b485
 
 }
 
+html{
+    font-size: 10px;
+}
+
 body{
     font-family:"Lato", sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 1.7;
     color: #777;
-    padding: 30px;
+    padding: 3rem;
 
 }
 
@@ -34,9 +38,9 @@ body{
 
 }
 .logo{
-    height: 2.8rem;
-    margin-top: 2.5rem;
-    margin-left: 2.5rem;
+    height: 5rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
 }
 
 .text-box{
@@ -52,8 +56,8 @@ body{
     text-transform: uppercase;
     display:block;
     font-weight:400;
-    font-size:80px;
-    letter-spacing: 40px;
+    font-size:8rem;
+    letter-spacing: 4rem;
     animation-name: moveLeft;
     animation-duration: 1s;
 }
@@ -62,11 +66,11 @@ body{
     color: white;
     text-transform: uppercase;
     display:block;
-    font-size:20px;
+    font-size:2rem;
     letter-spacing: 10px;
     animation-name: moveRight;
     animation-duration: 1s;
-    margin-bottom:40px
+    margin-bottom:4rem;
     
 }
 
@@ -105,22 +109,23 @@ body{
 .btn.visited {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 15px 40px;
+    padding: 1.5rem 4rem;
     display: inline-block;
     border-radius: 100px;
     transition: all 0.2s;
 }
 
 .btn:hover{
-    transform:translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transform:translateY(-0.3rem);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.2);
 }
 .btn:active{
-    transform: translateY(-1px);
-    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    transform: translateY(-0.1rem);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.3);
 }
 .btn-white{
     background-color: #fff;
     color: #777;
-    
+    font-size: 1.5rem;
+
 }
